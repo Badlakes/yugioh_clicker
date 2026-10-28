@@ -1,0 +1,28 @@
+{
+  "_comentario": "Etapa 1: procurar o botão Rush Duel na tela anterior. Etapa 2: depois da fala/transição, procurar o botão Auto-Duel. O fluxo ainda não reconhece o estado durante o duelo nem a tela de resultados. Faça o teste com cliques reais desativados; para validar a sequência visual completa, a tela precisa avançar entre as etapas, então simulação não muda a tela.",
+  "portao": [
+    {
+      "label": "",
+      "image": "imagens/gate_icon.png",
+      "timeout_seconds": 20,
+      "wait_after_seconds": 4,
+      "wait_second_click": 1
+    },
+    {
+      "label": "Botão Rush Duel na tela de seleção",
+      "image": "imagens/rush_duel_tela_portao.png",
+      "timeout_seconds": 20,
+      "wait_after_seconds": 4,
+      "wait_second_click": 4
+    },
+    {
+      "label": "Botão Auto-Duel após a fala do personagem",
+      "image": "imagens/auto_duel_tela_personagem.png",
+      "timeout_seconds": 60,
+      "wait_after_seconds": 4,
+      "wait_second_click": 0
+    }
+  ],
+  "personagens": [],
+  "evento": []
+}
